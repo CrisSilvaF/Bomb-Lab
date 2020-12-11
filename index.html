@@ -10,11 +10,11 @@
     <script src="Build/UnityLoader.js"></script>
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Bomb Lab Game.json", {onProgress: UnityProgress});
-      function LockLanscape(){
-        if(UnityLoader.SystemInfo.mobile == true){
-          ScreenOrientation.lock('landscape');
-        }
-      }
+      // function LockLanscape(){
+      //   if(UnityLoader.SystemInfo.mobile == true){
+      //     ScreenOrientation.lock('landscape');
+      //   }
+      // }
     
     </script>
   </head>
@@ -23,7 +23,7 @@
       <div id="unityContainer"></div>
       <div class="footer">
         <!-- <div class="webgl-logo"></div> -->
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1); LockLanscape();"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
         <!-- <div class="title">Bomb Lab Web</div> -->
       </div>
     </div>
