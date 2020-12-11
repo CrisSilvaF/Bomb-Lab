@@ -10,7 +10,7 @@ body{
 @media(orientation:portrait){
     #unityContainer{
         width: 100%; 
-        height: 30vh;
+        height: 56vw;
     }
 }
 .webgl-content * {border: 0; margin: 0; padding: 0}
