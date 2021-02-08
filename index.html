@@ -9,7 +9,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      
+      lockAllowed = window.screen.lockOrientation(orientation);
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Bomb Lab Game.json", {onProgress: UnityProgress});
       // function LockLanscape(){
       //   if(UnityLoader.SystemInfo.mobile == true){
